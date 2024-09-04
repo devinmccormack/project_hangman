@@ -6,4 +6,4 @@ Assignment: https://www.theodinproject.com/lessons/ruby-hangman
 
 Author: Devin McCormack
 
-Usage: Run "ruby main.rb" in console
+Usage: Run "ruby game.rb" in console
