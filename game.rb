@@ -67,7 +67,7 @@ class Game
 
   def self.load_game
     if File.exist?("saved_game.yaml")
-      YAML.load(File.read("saved_game.yaml"))
+      YAML.safe_load(File.read("saved_game.yaml"), permitted_classes: [Game], aliases: true)
     else
       puts "No saved game found."
       nil
